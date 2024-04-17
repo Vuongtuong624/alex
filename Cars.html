@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cars.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Nav -->
+        <div class="header">
+            <!-- Menu icon -->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!-- Logo -->
+            <img src="/image/Mercedes_Benz__logo--desktop.png" alt="logo">
+            <a href="index.html" class="logo">Mercedes <span>- Benz</span></a>
+            <!-- Nav List -->
+            <ul class= "navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="innovation.html">Innovation</a></li>
+                <li><a href="Cars.html" class="active">Vehicles</a></li>
+            </ul>
+            
+            <!-- Search Box -->
+            <div class="search-box container">
+                <input type="search" value="" id="search" placeholder="Search here..." onchange="openPage()">
+            </div>
+            <i class='bx bx-search' id="search-icon" ></i>
+        </div>
+
+
+        <!-- Slide -->
+        <div id="slide">
+            <!-- 1 -->
+            <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/2023-EQE350-SEDAN-AVP-DR.jpg">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>EQE 350 SEDAN</h1>
+                        <div class="des"> 	
+                            It's futuristic, forward and fresh, but you know its core values. Ever-refined luxury. 
+                            Ever-advancing innovation. And a never-ending devotion to your well-being. 
+                            Perhaps no electric sedan feels so new, yet so natural.</div>
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>6.2 sec**</p>
+                            </li>
+                            <li>
+                                <p>Battery capacity</p>
+                                <p>90.6 kWh</p>
+                            </li>
+                            <li>
+                                <p>EPA-estimated <br>electric range</p>
+                                <p>305 mi††</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 2  -->
+             <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/iris (2).png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>EQE 350+ SUV</h1>
+                        <div class="des">More than new, it can update its advancements down the road. 
+                            More than thoughtful, it can anticipate needs and desires. 
+                            Beyond futuristic, it can make better use of your time, and make your time using it better.</div>
+                        <!-- <button>Seee more
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button> -->
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>6.3 sec**</p>
+                            </li>
+                            <li>
+                                <p>Torque</p>
+                                <p>417 lb-ft</p>
+                            </li>
+                            <li>
+                                <p>Power</p>
+                                <p>288 hp</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div> 
+
+            <!-- 3 -->
+             <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/2024-EQS-SUV-MAYBACH-AVP-DR.jpg">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>EQS 680 SUV</h1>
+                        <div class="des">A seamless, near-silent torrent of torque rushes to all four wheels, each poised on pressurized air and able to steer as well as drive. 
+                            Confidence is the keyword from sharp turns to steep trails, and from instant response to impressive range.</div>
+                        <!-- <button>Seee more
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button> -->
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>4.1 sec**</p>
+                            </li>
+                            <li>
+                                <p>Torque</p>
+                                <p>700 lb-ft (combined)</p>
+                            </li>
+                            <li>
+                                <p>Power</p>
+                                <p>649 hp (combined)</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/4.png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>S500 4MATIC <br>Sedan <br></h1>
+                        <div class="des">Forward-thinking performance pairs turbo and electric boost for more than 400 hp in every model. 
+                            And they can all precisely meter their torque to all four air-suspended wheels for year-round confidence.</div>
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>4.5 sec**</p>
+                            </li>
+                            <li>
+                                <p>Torque</p>
+                                <p>413 lb-ft</p>
+                            </li>
+                            <li>
+                                <p>Power</p>
+                                <p>442 hp</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/iris (1).png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>E 450 Cabriolet</h1>
+                        <div class="des">A masterpiece of innovation in a sculpture of metal, leather and wood, 
+                            the E 450 Cabriolet is a work of art that moves you.  
+                            Advanced turbo power with hybrid electric assist, 
+                            elegant style and bold tech accelerate the joys of open-air driving.</div>
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>54 sec**</p>
+                            </li>
+                            <li>
+                                <p>Torque</p>
+                                <p>369 lb-ft</p>
+                            </li>
+                            <li>
+                                <p>Power</p>
+                                <p>362 hp</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/6.png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>E450 4MATIC <br>Terrain Wagon</h1>
+                        <div class="des">Flexible and capable, the E-Class All-Terrain is able to respond to your natural voice. 
+                            By sharing info with other cars, it can virtually see around corners and miles ahead.
+                            And its advances can team up to help keep youfeeling comfortably in command, even in the urban jungle.</div>
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>54 sec**</p>
+                            </li>
+                            <li>
+                                <p>Torque</p>
+                                <p>369 lb-ft</p>
+                            </li>
+                            <li>
+                                <p>Power</p>
+                                <p>362 hp</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/7.png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>G 550 SUV</h1>
+                        <div class="des">Within the timeless body is a thoroughly modern cockpit, with technologies
+                            from dual 12.3-inch displays, intuitive steering-wheel Touch Controls,
+                            and voice control for the navigation, audio and numerous comfort features.</div>
+                        </button>
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>5.6 sec**</p>
+                            </li>
+                            <li>
+                                <p>Torque</p>
+                                <p>450 lb-ft</p>
+                            </li>
+                            <li>
+                                <p>Power</p>
+                                <p>416 hp</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/8.png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>AMG G63 SUV</h1>
+                        <div class="des">Two of the most renowned legacies of handcraftsmanship unite in the G63:
+                             The globe-tested endurance of the G-Class, and the track-proven performance of AMG. 
+                             The G63 reasserts that timelessness can be delivered with a true sense of urgency.</div>
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>4.5 sec**</p>
+                            </li>
+                            <li>
+                                <p>Torque</p>
+                                <p>627 lb-ft</p>
+                            </li>
+                            <li>
+                                <p>Power</p>
+                                <p>577 hp</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="item">
+                <div class="image">
+                    <img src="/cars/slideyoutube_car-main/image/9.png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>AMG SL43 <br>Roadster</h1>
+                        <div class="des">Its racing legacy includes records for endurance that have themselves endured for decades. 
+                            As a sports car for the open road, it's won  hearts and fulfilled dreams. 
+                            It's pioneered innovations in performance, safety and luxury. 
+                            Like no other car, it's truly timeless, and a true icon.</div>
+                    </div>
+                    <div class="right">
+                        <h2>PROPERTIES</h2>
+                        <ul>
+                            <li>
+                                <p>Acceleration</p>
+                                <p>4.8 sec**</p>
+                            </li>
+                            <li>
+                                <p>Torque</p>
+                                <p>354 lb-ft</p>
+                            </li>
+                            <li>
+                                <p>Power</p>
+                                <p>375 hp</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="directional">
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    
+    <script src="cars.js"></script>
+</body>
+</html>
